@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Tankstelle @ JanKrb</title>
+        <link rel="stylesheet" type="text/css" href="ui.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="ui.js"></script>
+    </head>
+    <body>
+       <div class="container noselect">
+            <div class="head">
+                <img class="close" src="close.png">
+                <img class="icon" src="tankstelle.png">
+                <div class="one-bar">Tankstelle</div>
+            </div>
+            <div class="content">
+                <div class="tank-perc-box">
+                    <div class="tank-leiste-empty"></div>
+                    <div class="tank-leiste-blue">
+                        <p class="tank-leiste-percent">25%</p>
+                    </div>
+                    
+                    <div class="tank-buttons">
+                        <div class="tank-button-start-stop">
+                            <p class="start_stop">Start/Stop</p>
+                        </div>
+
+                        <div class="tank-botton-pay">
+                            <p class="pay">Bezahlen</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tank-preise">
+                    <p class="pro-liter">Preis pro Liter ($)</p>
+                    <div class="pro-liter-amount">
+                        <p class="pro-liter-amount-text">$ 1.15</p>
+                    </div>
+
+                    <p class="pro-liter">Gesamtpreis ($)</p>
+                    <div class="pro-liter-amount">
+                        <p id="total" class="pro-liter-amount-text">$ 0.00</p>
+                    </div>
+                </div>
+            </div>
+       </div> 
+    </body>
+</html>
